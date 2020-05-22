@@ -1,0 +1,61 @@
+.menu-toggler{
+    top: auto;
+    z-index: 1000;
+    position: absolute;
+    top: 2%;
+    border: none;
+    color: #919191;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.btn{
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    align-items: flex-start;
+    cursor: pointer;
+    box-sizing: border-box;
+    font: 400 13.3333px Arial;
+    border-width: 2px;
+    border-style: outset;
+    border-color: rgb(118, 118, 118);
+    border-image: initial;
+    display: none;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.svg-icon {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #919191;
+}
+
+.svg-icon circle {
+    stroke: #919191;
+    stroke-width: 1;
+} 

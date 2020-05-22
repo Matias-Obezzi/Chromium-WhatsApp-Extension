@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "WhatsApp",
+    "version": "0.1.0",
+    "description": "Toggle contacts menu, capitalize first letter on messages",
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["jquery.js", "content.js"],
+      "matches": ["https://web.whatsapp.com/*"]
+    }]
+}
